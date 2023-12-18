@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    padding:12px;
+    margin:12px;
+}
+
+.firstContainer{
+    width:40%;
+    margin:12px;
+    padding:12px;
+}

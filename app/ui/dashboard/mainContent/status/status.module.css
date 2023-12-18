@@ -1,0 +1,41 @@
+.container{
+    border:2px solid whitesmoke;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding:20px;
+    gap:12px;
+    display: flex;
+    flex-direction: column;
+    margin:16px;
+    /* width:30%; */
+
+    background-color: var(--bgSoft);
+
+}
+
+.containerTitle{
+    border-bottom: 2px solid whitesmoke;
+
+}
+
+.containerContent{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.button{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor:pointer;
+}
